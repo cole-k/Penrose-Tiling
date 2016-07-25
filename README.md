@@ -10,37 +10,37 @@ Set variables to your liking and add "seed" (think an initial value that the gen
 
 # Variables:
 
-## integers:
+## Integers:
 
-colors may be created using the color(r,g,b,alpha) function as well
+(Note: colors may be created using the [color()](https://processing.org/reference/color_.html) function as well as inputting as an integer)
 
-w: width of the sketch
+**w**: width of the sketch
 
-h: height of the sketch
+**h**: height of the sketch
 
-backgroundColor: color of the background
+**backgroundColor**: color of the background
 
-outlineColor: color of the outline
+**outlineColor**: color of the outline
 
-fillColor0: color of the "skinny" (36 degree) triangle
+**fillColor0**: color of the "skinny" (36 degree) triangle
 
-fillColor1: color of the "fat" (108) degree triangle
+**fillColor1**: color of the "fat" (108) degree triangle
 
-outlineWeight: weight of the outline -- high outline weight can lead to ugly edges
+**outlineWeight**: weight of the outline -- high outline weight can lead to ugly edges
 
-loops: number of times deflated -- try not to exceed 10 unless you think your computer can handle it (deflation increases triangle count exponentially by the golden ratio, so bear that in mind. 10 loops will take maybe 5-30 seconds on my computer depending on resolution)
+**loops**: number of times deflated -- try not to exceed 10 unless you think your computer can handle it (deflation increases triangle count exponentially by the golden ratio, so bear that in mind. 10 loops will take maybe 5-30 seconds on my computer depending on resolution)
 
-## booleans:
+## Booleans:
 
-drawFill: draw the fill if true
+**drawFill**: draw the fill if true
 
-drawOutline: draw the outline if true
+**drawOutline**: draw the outline if true
 
-save: save if true
+**save**: save if true
 
 ## Strings:
 
-filename: file name to save to
+**filename**: file name to save to
 
 # Functions/Object Initalizers:
 
@@ -64,4 +64,4 @@ Returns a new point rotated angle degrees about the origin point. I used this to
 
 * Add GUI (using G4P, likely)
 
-* Allow iso() to create triangles in any rotation, not just 0/180 degrees.
+* Allow iso() to create triangles in any rotation, not just 0 or 180 degrees.
