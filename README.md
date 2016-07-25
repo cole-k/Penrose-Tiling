@@ -6,11 +6,11 @@ I give almost all credit to [this blog](http://preshing.com/20110831/penrose-til
 
 #Instructions
 
-Set variables to your liking and add "seed" (think an initial value that the generator generates from) triangles to the arraylist (triangles.add(triangle);). After doing so, all you need to do is run the program.
+Set variables to your liking and add a "seed" (think an initial value that the generator generates from) triangles to the arraylist (triangles.add(triangle);). After doing so, all you need to do is run the program.
 
-# Variables:
+# Variables
 
-## Integers:
+### Integers
 
 (Note: colors may be created using the [color()](https://processing.org/reference/color_.html) function as well as inputting as an integer)
 
@@ -30,7 +30,7 @@ Set variables to your liking and add "seed" (think an initial value that the gen
 
 **loops**: number of times deflated -- try not to exceed 10 unless you think your computer can handle it (deflation increases triangle count exponentially by the golden ratio, so bear that in mind. 10 loops will take maybe 5-30 seconds on my computer depending on resolution)
 
-## Booleans:
+### Booleans
 
 **drawFill**: draw the fill if true
 
@@ -38,25 +38,25 @@ Set variables to your liking and add "seed" (think an initial value that the gen
 
 **save**: save if true
 
-## Strings:
+### Strings:
 
 **filename**: file name to save to
 
-# Functions/Object Initalizers:
+# Functions/Object Initalizers
 
-## Coordinate c = new Coordinate(int x, int y):
+### Coordinate c = new Coordinate(int x, int y)
 
 Initialize c to be a coordinate with location at (x,y).
 
-## Triangle tri = new Triangle(Cooridnate a, Coordinate b, Coordinate c, int t):
+### Triangle tri = new Triangle(Cooridnate a, Coordinate b, Coordinate c, int t)
 
 Initialize tri to be a triangle made from coordinates a, b, and c. Int t is optional and is used to specify what kind of triangle tri is (0 for skinny, 1 for fat).
 
-## iso(Coordinate a, int degree, float h):
+### iso(Coordinate a, int degree, float h)
 
 Returns an isosceles triangle. You really only will want either skinny (36) or fat (108) ones, but it will accept other. h is the height of the triangle, if it isn't clear. The variable degree is in degrees.
 
-## rotate_point(Coordinate origin, float angle, Coordinate p):
+### rotate_point(Coordinate origin, float angle, Coordinate p)
 
 Returns a new point rotated angle degrees about the origin point. I used this to create the "wheel" of skinny triangles example.
 
