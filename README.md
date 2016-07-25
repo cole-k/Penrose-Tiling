@@ -60,9 +60,22 @@ Returns an isosceles triangle. You really only will want either skinny (36) or f
 
 Returns a new point rotated angle degrees about the origin point. I used this to create the "wheel" of skinny triangles example.
 
+# Sample images
+
+###Penrose tiles cropped so that the seed triangle is not visible
+
+![Penrose tiling example](./Sample-Images/penrose%20tiling.png)
+
+###Gif showing how deflation works
+
+![Deflation example](https://github.com/cole-k/Penrose-Tiling/blob/master/Sample-Images/deflation.gif)
+
+###Sun pattern Penrose tiling
+
+![Sun example](https://github.com/cole-k/Penrose-Tiling/blob/master/Sample-Images/sun.png)
+
 # Planned features
 
-* Add example images
 * Add GUI (using G4P, likely)
 * Allow iso() to create triangles in any rotation, not just 0 or 180 degrees.
 * Fix "cracks" appearing between triangles/rhombuses (small gaps where the background is visible, likley present due to roundoff errors)
