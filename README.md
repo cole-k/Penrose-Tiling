@@ -15,18 +15,27 @@ Set variables to your liking and add "seed" (think an initial value that the gen
 colors may be created using the color(r,g,b,alpha) function as well
 
 w: width of the sketch
+
 h: height of the sketch
+
 backgroundColor: color of the background
+
 outlineColor: color of the outline
+
 fillColor0: color of the "skinny" (36 degree) triangle
+
 fillColor1: color of the "fat" (108) degree triangle
+
 outlineWeight: weight of the outline -- high outline weight can lead to ugly edges
+
 loops: number of times deflated -- try not to exceed 10 unless you think your computer can handle it (deflation increases triangle count exponentially by the golden ratio, so bear that in mind. 10 loops will take maybe 5-30 seconds on my computer depending on resolution)
 
 ## booleans:
 
 drawFill: draw the fill if true
+
 drawOutline: draw the outline if true
+
 save: save if true
 
 ## Strings:
