@@ -63,7 +63,6 @@ Returns a new point rotated angle degrees about the origin point. I used this to
 # Planned features
 
 * Add example images
-
 * Add GUI (using G4P, likely)
-
 * Allow iso() to create triangles in any rotation, not just 0 or 180 degrees.
+* Fix "cracks" appearing between triangles/rhombuses (small gaps where the background is visible, likley present due to roundoff errors)
